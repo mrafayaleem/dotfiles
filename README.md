@@ -125,3 +125,8 @@ IPython is a fantastic python interactive shell, and flake8 lets vim show you wh
     $ sudo easy_install pip
     $ sudo easy_install ipython
     $ sudo easy_install flake8
+
+### Known Issues
+- jedi-vim and neocomplete are painfully slow so it is better to disable them especially if working with very large files.
+- python-mode libs haven't been updated for a while (as discussed [here](https://github.com/klen/python-mode/issues/537)) so using [this](https://github.com/TFenby/python-mode) instead.
+

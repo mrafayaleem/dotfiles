@@ -140,6 +140,9 @@ let g:pymode_options = 0
 " Disable pymode rope
 let g:pymode_rope=0
 
+" Override view python doc key shortcut to Ctrl-Shift-d
+let g:pymode_doc_bind = "<C-S-d>"
+
 " Show status line for single windows
 set laststatus=2
 
