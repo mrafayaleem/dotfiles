@@ -92,6 +92,12 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kevinw/pyflakes-vim'
 Plugin 'ervandew/supertab'
 
+" Vim Snippet Plugins
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+
 " if has('lua') && (v:version > 703 || v:version == 703 && has('patch885'))
 "   Plugin 'Shougo/neocomplete.vim'
 " else
@@ -161,6 +167,7 @@ let g:pyflakes_use_quickfix = 0
 
 " Ignore filetypes in NERDTree
 let NERDTreeIgnore = ['\.pyc$']
+
 
 " """"""""""""""""""""""""""""""""""""""""""""""""
 " ============= Custom Key Bindings ==============
